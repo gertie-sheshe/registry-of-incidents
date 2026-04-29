@@ -1,0 +1,40 @@
+{
+  "ref": "INC-1978-001",
+  "name": "The Handshake Incident",
+  "status": "CLOSED",
+  "date": "Est. 1978",
+  "dateShort": "Est. 1978",
+  "year": 1978,
+  "venue": "Mwisho wa Mwisho Community Hall",
+  "categories": ["community meeting", "ceremony"],
+  "description": "The guest of honour extended his hand at the ribbon-cutting ceremony. Chief Omondi turned away at the precise moment of the photograph. The image has hung in the hall since 1978 without annotation.",
+  "featured": false,
+  "firstDocumented": "1992",
+  "lastUpdated": "2024",
+  "tags": ["Chief Omondi", "handshake", "photograph", "ribbon-cutting", "1978", "community hall"],
+  "prose": [
+    "The ribbon-cutting ceremony at the Mwisho wa Mwisho Community Hall, held on a date in 1978 for which no precise record survives in the Trust's holdings, was attended by an estimated sixty to eighty community members, in addition to the District Officer and several dignitaries from the provincial administration. The guest of honour, whose identity has not been confirmed in any document currently held by the Trust, extended his hand toward Chief Omondi at the moment of the official ceremony photograph. Chief Omondi had been standing to the guest's left throughout the proceedings.",
+    "At the moment the photographer depressed the shutter, Chief Omondi turned. The direction of his turn has been described variously by witnesses as turning toward the assembled crowd, turning in the direction of the street, and turning in response to a voice or sound from his right. The photograph, as developed, records Chief Omondi's back and left shoulder. The guest of honour's extended hand is visible at the right edge of the frame. The handshake, if it was intended, did not occur. The photograph does not record whether it was intended.",
+    "The photograph was framed and placed in the Community Hall at some point following the ceremony. It has remained on the eastern wall of the main meeting room since that time. No annotation accompanies it. No nameplate identifies either the guest of honour or Chief Omondi by name. The photograph was confirmed as present and in place by the Trust's first archivist during a preliminary survey in 1992. It has not been subject to formal cataloguing since that date and is recorded in the Trust's holdings as DOC-1978-001.",
+    "Chief Omondi died in 2003. No statement was collected from him by the Heritage Trust prior to his death. This constitutes a gap in the record which cannot now be remedied. The guest of honour has not been identified from any documentary source held by the Trust. No oral history has been formally commissioned from surviving attendees who might identify him. The incident is closed in the sense that no further testimony is anticipated. It is not resolved in any other sense."
+  ],
+  "heritageTrustNote": "Chief Omondi died in 2003. No statement was collected from him by the Heritage Trust prior to his death. This constitutes a gap in the record which cannot now be remedied. The Trust acknowledges that the most material witness to this incident is no longer available to it.",
+  "relatedIncidents": [],
+  "oralHistoryRefs": [],
+  "disputedAccount": {
+    "incidentRef": "INC-1978-001",
+    "conflictType": "Testimony Conflict",
+    "summary": "Witnesses disagree on whether Chief Omondi was aware that the photograph was being taken at the moment he turned.",
+    "accountA": {
+      "witness": "A. Wekesa, 83",
+      "role": "Attendee at the inauguration, 1978",
+      "text": "He knew the photograph was coming. We had been told to stand still. He chose that moment to turn. I do not know why. No one asked him at the time."
+    },
+    "accountB": {
+      "witness": "B. Odhiambo, 78",
+      "role": "Attendee at the inauguration, 1978",
+      "text": "It was entirely accidental. Someone called his name from the side. He was a courteous man. He turned because he was called. That is all."
+    },
+    "heritageTrustNote": "Chief Omondi died in 2003. No statement was collected from him by the Heritage Trust prior to his death. This constitutes a gap in the record which cannot now be remedied."
+  }
+}

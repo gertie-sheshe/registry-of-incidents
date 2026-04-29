@@ -1,0 +1,47 @@
+---
+description: Design system tokens and component patterns. Active when working in /components/ui/ or /components/layout/.
+globs: components/{ui,layout}/**/*.tsx
+---
+
+# Design System
+
+## Color tokens (from DS object in docs/design/components/shared.jsx)
+```
+cream:        #F5F2EC   bg-cream
+charcoal:     #2C2A25   text-charcoal
+secondary:    #7A7060   text-secondary
+amber:        #8B5E3C   text-amber / border-amber
+amberLight:   #FAEEDA   bg-amber-light
+amberDeep:    #633806   text-amber-deep
+rule:         #D4C9B5   border-rule
+annotationBg: #F0EBE0   bg-annotation
+disputedBg:   #EDE0D8   bg-disputed
+disputedText: #6B3020   text-disputed
+closedBg:     #ECEAE6   bg-closed
+closedText:   #4A4640   text-closed
+```
+
+## StatusPill variants
+- CLOSED → bg-closed text-closed
+- OPEN → bg-amber-light text-amber-deep
+- DISPUTED → bg-disputed text-disputed
+All: font-mono text-[9px] uppercase tracking-wider rounded-full px-2 py-0.5
+
+## InstitutionalSeal
+SVG. Outer ring: "MWISHO WA MWISHO DISTRICT HERITAGE TRUST" on textPath in EB Garamond.
+Inner: 3 horizontal lines of decreasing width. Amber stroke, cream fill. Accepts size prop.
+
+## HeritageTrustNote
+bg-annotation border-l-2 border-amber px-4 py-3.
+Label: "HERITAGE TRUST NOTE —" in font-mono text-[9px] text-amber-deep uppercase tracking-widest.
+Body: font-sans text-sm text-charcoal leading-relaxed.
+
+## PullQuote
+border-l-2 border-amber pl-5 my-6.
+Quote: font-serif text-lg italic text-charcoal leading-snug.
+Attribution: font-sans text-xs text-secondary mt-2.
+
+## FilterBar (client component)
+Tab row. Active tab: text-amber font-semibold border-b-2 border-amber.
+Inactive: text-secondary border-b-2 border-transparent.
+Mobile: overflow-x-auto, no wrapping.

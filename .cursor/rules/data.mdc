@@ -1,0 +1,39 @@
+---
+description: Data and utility rules. Active when working in /lib/ or /types/.
+globs: "{lib,types}/**/*.ts"
+---
+
+# Data Rules
+
+## Owned by Claude Code
+Files in /lib/, /types/, /data/, /content/ are Claude Code's domain.
+Cursor should not edit these unless explicitly instructed.
+
+## Type reference
+All types live in /types/index.ts.
+Key types: Incident · OralHistory · StatusType · IncidentObject · PullQuote · NavItem · FilterOption
+
+## Ref formats
+- Incidents: INC-YYYY-XXX
+- Oral histories: OHT-YYYY-XXX  
+- Objects: OBJ-XXX
+- Documents: DOC-YYYY-XXX
+
+## Utility functions
+```
+/lib/incidents.ts
+  getAllIncidents(): Incident[]
+  getIncidentByRef(ref: string): Incident | undefined
+  getFeaturedIncidents(): Incident[]
+  getOpenIncidents(): Incident[]
+  getDisputedIncidents(): Incident[]
+
+/lib/oral-histories.ts
+  getAllOralHistories(): OralHistory[]
+  getOralHistoryByRef(ref: string): OralHistory | undefined
+  getOralHistoriesByIncidentRef(incidentRef: string): OralHistory[]
+```
+
+## No runtime DB calls
+All data functions read from flat JSON files synchronously using fs and path.
+No fetch(). No async data utilities (pages handle async via React server components).

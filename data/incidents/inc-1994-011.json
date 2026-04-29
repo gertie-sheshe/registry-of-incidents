@@ -1,0 +1,40 @@
+{
+  "ref": "INC-1994-011",
+  "name": "The Microphone Incident",
+  "status": "DISPUTED",
+  "date": "12 November 1994",
+  "dateShort": "12 Nov 1994",
+  "year": 1994,
+  "venue": "Mwisho wa Mwisho Primary School Prize-Giving",
+  "categories": ["school event"],
+  "description": "The headmaster's microphone failed mid-announcement. Three students — Achieng, Kamau, and Otieno — each believed they had heard their own name. Two of the three students no longer speak to each other.",
+  "featured": false,
+  "firstDocumented": "1995",
+  "lastUpdated": "2024",
+  "tags": ["microphone", "prize-giving", "school event", "1994", "Form 4", "Achieng", "Kamau", "Otieno"],
+  "prose": [
+    "The Mwisho wa Mwisho Primary School Annual Prize-Giving was held on the afternoon of 12 November 1994 in the school assembly ground. Approximately 200 students, 80 parents and guardians, and the full teaching staff were in attendance. The District Education Officer was present in an observational capacity. The annual award for the top-performing Form 4 student had been reserved for the final announcement of the afternoon, as was the established custom of the occasion.",
+    "At approximately 3:50 in the afternoon, Headmaster Mr. Eliud Mutiso approached the microphone to announce the recipient of the top-performing Form 4 award. The microphone — a dynamic model hired for the occasion — produced intelligible sound for the first syllable or syllables of the announced name before failing. The failure lasted approximately three seconds, during which the headmaster continued speaking. The microphone then resumed partial function for approximately two further seconds before failing again. The name, as announced, was not heard completely by any section of the assembled audience.",
+    "In the moments following the partial announcement, three students rose from their seats in the Form 4 section of the assembly ground. A student identified in the Trust's record only as Achieng rose first. A student identified only as Kamau rose a moment after. A student identified only as Otieno rose briefly and sat down again before the others. Each of the three students has stated, in separate accounts given to the Heritage Trust, that they believed they had heard their own name called. Each sat down upon observing that others had also risen. The award certificate was not presented that afternoon. The Prize-Giving concluded without the award being made.",
+    "No re-announcement was made on the day of the event or at any subsequent occasion. The headmaster, Mr. Eliud Mutiso, retired from his position in 2003. He has not been contacted by the Heritage Trust regarding this incident. The award certificate, if one was prepared in advance, has not been located. A third student — identified only as Otieno in the Trust's record — declined to be interviewed when approached by the Trust in 2007. Two of the three students no longer speak to each other. The incident is designated DISPUTED because the identity of the intended recipient of the award cannot be established from the available evidence, and no authoritative source has provided it."
+  ],
+  "heritageTrustNote": "The Heritage Trust notes that the announced name has not been recovered from any documentary source held by the Trust. No recording of the Prize-Giving was made. The headmaster has not been contacted. The identity of the intended recipient of the top-performing Form 4 award for 1994 remains unknown to this institution.",
+  "relatedIncidents": ["INC-1987-003"],
+  "oralHistoryRefs": [],
+  "disputedAccount": {
+    "incidentRef": "INC-1994-011",
+    "conflictType": "Unverifiable Claim",
+    "summary": "Three students independently assert that they heard their own name announced as the top-performing Form 4 student.",
+    "accountA": {
+      "witness": "E. Achieng (name withheld by request)",
+      "role": "Student, Form 4, 1994",
+      "text": "I heard my name clearly. I stood up. I sat down again only because no one else reacted. I have never been certain since."
+    },
+    "accountB": {
+      "witness": "F. Kamau (name withheld by request)",
+      "role": "Student, Form 4, 1994",
+      "text": "The name that was announced began with a K sound and ended as mine ends. I do not think I was mistaken. I think the microphone returned briefly."
+    },
+    "heritageTrustNote": "A third student — identified only as Otieno in the record — has declined to be interviewed. The award certificate was never presented. The headmaster has since retired and has not been contacted."
+  }
+}

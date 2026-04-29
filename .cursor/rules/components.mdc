@@ -1,0 +1,38 @@
+---
+description: Component building rules. Active when working in /components/.
+globs: components/**/*.tsx
+---
+
+# Component Rules
+
+## Design source of truth
+Before building any component, open the relevant design file in docs/design/components/.
+
+| Building | Open |
+|---|---|
+| Any shared UI component | shared.jsx |
+| Homepage, Browse | screens-1-2.jsx |
+| Incident record, Oral histories index | screens-3-4.jsx |
+| Mobile layouts | screens-5-6.jsx |
+| Disputed accounts, Open incidents | screens-7-8.jsx |
+| About, Submission, Contact, Privacy | screens-9-12.jsx |
+
+## Types
+All props typed using types from /types/index.ts. Import explicitly — no re-declaration.
+
+## Strings
+No hardcoded strings. All labels from /lib/constants.ts passed as props or imported directly.
+
+## Responsive
+- `lg` is the primary breakpoint (desktop above, mobile below)
+- SiteHeader: `hidden lg:flex`
+- BottomTabBar: `flex lg:hidden`
+- Grids: single column mobile, multi-column at lg
+
+## Fonts (Tailwind utilities)
+- `font-serif` → EB Garamond
+- `font-sans` → Source Sans 3
+- `font-mono` → Space Mono
+
+## Colors (Tailwind extensions — never raw hex)
+bg-cream · text-charcoal · text-secondary · text-amber · bg-amber-light · text-amber-deep · border-rule · bg-annotation · bg-disputed · text-disputed · bg-closed · text-closed

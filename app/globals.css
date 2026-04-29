@@ -1,27 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Source+Sans+3:wght@300;400;600;700&family=Space+Mono:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+  --color-cream: #F5F2EC;
+  --color-charcoal: #2C2A25;
+  --color-secondary: #7A7060;
+  --color-amber: #8B5E3C;
+  --color-amber-light: #FAEEDA;
+  --color-amber-deep: #633806;
+  --color-rule: #D4C9B5;
+  --color-annotation-bg: #F0EBE0;
+  --color-disputed-bg: #EDE0D8;
+  --color-disputed-text: #6B3020;
+  --color-closed-bg: #ECEAE6;
+  --color-closed-text: #4A4640;
 }

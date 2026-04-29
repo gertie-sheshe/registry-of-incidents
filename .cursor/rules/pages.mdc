@@ -1,0 +1,41 @@
+---
+description: Page building rules. Active when working in /app/.
+globs: app/**/*.tsx
+---
+
+# Page Rules
+
+## Pages are server components
+Fetch data at the top of the page using /lib/ utilities. Pass data down to components as props.
+No useEffect. No fetch() calls. No useState (except in FilterBar which is already built).
+
+## Data utilities
+- getAllIncidents() · getIncidentByRef(ref) · getFeaturedIncidents()
+- getOpenIncidents() · getDisputedIncidents()
+- getAllOralHistories() · getOralHistoryByRef(ref) · getOralHistoriesByIncidentRef(ref)
+
+## Dynamic routes
+Every [ref] route must export generateStaticParams.
+```ts
+export async function generateStaticParams() {
+  const items = getAllIncidents()
+  return items.map(i => ({ ref: i.ref }))
+}
+```
+
+## Page composition
+Import and compose from /components only. No component logic inside page files.
+
+## Route → Screen reference
+| Route | Design screen |
+|---|---|
+| / | Screen1, Screen5 |
+| /incidents | Screen2 |
+| /incidents/[ref] | Screen3, Screen6 |
+| /oral-histories | Screen4 |
+| /disputed-accounts | Screen7 |
+| /open-incidents | Screen8 |
+| /about | Screen9 |
+| /submission-guidelines | Screen10 |
+| /contact | Screen11 |
+| /privacy | Screen12 |

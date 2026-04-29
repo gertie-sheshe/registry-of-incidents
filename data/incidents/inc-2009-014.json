@@ -1,0 +1,40 @@
+{
+  "ref": "INC-2009-014",
+  "name": "The Announcement Incident",
+  "status": "DISPUTED",
+  "date": "9 June 2009",
+  "dateShort": "9 Jun 2009",
+  "year": 2009,
+  "venue": "Mwisho wa Mwisho Market Harambee",
+  "categories": ["harambee & fundraisers"],
+  "description": "A Ksh 50,000 contribution was announced to an assembled crowd. The donor subsequently gave Ksh 5,000. Both figures appear in the harambee register, recorded without comment or reconciliation.",
+  "featured": false,
+  "firstDocumented": "2010",
+  "lastUpdated": "2024",
+  "tags": ["harambee", "Ksh 50000", "announcement", "2009", "market", "register", "discrepancy"],
+  "prose": [
+    "The Mwisho wa Mwisho Market Harambee of 9 June 2009 was convened in the market square and attended by an estimated 150 community members, in addition to several traders from the market and two officials from the District Development Office. The harambee had been called to raise funds for the repair of the market roof, which had sustained damage during the long rains of that year. A register was maintained by the harambee secretary, Mrs. Patricia Ngugi, in which each announced contribution was recorded alongside the amount subsequently received.",
+    "At approximately 11:20 in the morning, the Master of Ceremonies announced a contribution of Ksh 50,000 from a donor whose name was read from a card provided to him. The announcement was received by the assembled crowd with sustained applause. The MC thanked the donor by name. The donor did not rise to acknowledge the applause. Whether the donor was present at the harambee has not been confirmed in the Trust's documentary holdings.",
+    "The amount received from the named donor was Ksh 5,000. This figure was entered into the harambee register by the secretary alongside the announced figure of Ksh 50,000. No annotation, correction, or reconciliation note was appended to the register entry at the time of recording or subsequently. The discrepancy — a factor of ten — was not raised publicly during the harambee. The register's summary column records the contribution at Ksh 50,000. It is not known which figure, if either, was used in the final account of funds raised. The harambee register for 9 June 2009 is held in the Trust's archive as DOC-2009-008.",
+    "The donor has not been publicly named in this record. The Master of Ceremonies has stated, in a separate context, that he read from a card which he believed was provided to him by an organiser; he no longer possesses the card. He has not been asked to produce it by any formal process. The market roof was repaired in 2010. The source of the repair funds has not been independently verified by the Trust. This incident is designated DISPUTED because the documentary record contains two irreconcilable figures — Ksh 5,000 and Ksh 50,000 — without explanation or annotation."
+  ],
+  "heritageTrustNote": "The two figures — Ksh 5,000 and Ksh 50,000 — differ by a factor of ten. The register records both without comment. The donor has not been publicly named in this record. The Heritage Trust has not determined whether the discrepancy resulted from an error in announcement, an error in recording, or a deliberate misstatement.",
+  "relatedIncidents": [],
+  "oralHistoryRefs": [],
+  "disputedAccount": {
+    "incidentRef": "INC-2009-014",
+    "conflictType": "Documentary Conflict",
+    "summary": "The harambee register records a pledged contribution of Ksh 5,000 and an announced contribution of Ksh 50,000 without reconciliation.",
+    "accountA": {
+      "witness": "Harambee Register, 2009",
+      "role": "Documentary record",
+      "text": "Entry reads: \"Donor [name withheld] — pledge: Ksh 5,000. Announced: Ksh 50,000. Received: Ksh 5,000.\" No annotation follows."
+    },
+    "accountB": {
+      "witness": "MC Statement (reconstructed from oral account)",
+      "role": "Secondary source, 2011",
+      "text": "The MC has stated, in a separate context, that he read from a card provided to him. He has not been asked to produce the card. He believes he no longer has it."
+    },
+    "heritageTrustNote": "The two figures — Ksh 5,000 and Ksh 50,000 — differ by a factor of ten. The register records both without comment. The donor has not been publicly named in this record."
+  }
+}

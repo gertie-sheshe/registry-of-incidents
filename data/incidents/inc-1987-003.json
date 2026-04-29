@@ -1,0 +1,52 @@
+{
+  "ref": "INC-1987-003",
+  "name": "The Pilau Incident",
+  "status": "CLOSED",
+  "date": "14 August 1987",
+  "dateShort": "14 Aug 1987",
+  "year": 1987,
+  "venue": "St. Cyprian's Church Annual Harvest Fundraiser",
+  "categories": ["church fundraiser"],
+  "description": "A sufuria of pilau displaced 312 raffle tickets and rendered a harambee draw impossible. The grand prize, a weekend at Mombasa Palms Guesthouse, was never claimed and has not been reoffered.",
+  "featured": true,
+  "firstDocumented": "1991",
+  "lastUpdated": "2024",
+  "tags": ["pilau", "raffle", "sufuria", "St. Cyprian's Church", "1987", "grand prize unclaimed"],
+  "prose": [
+    "The St. Cyprian's Church Annual Harvest Fundraiser of 1987 was held on the afternoon of 14 August. The event had been convened in the church hall, with the serving table positioned along the eastern wall beneath the second window, as had been the custom since the fundraiser's establishment in 1979. The occasion was attended by an estimated 140 to 160 congregants, in addition to Father Emmanuel Kamau, who presided, and several invited guests from neighbouring parishes. Preparations had been completed by midday. The raffle stand, displaying the donated prizes, had been placed immediately adjacent to the serving table, at a distance later estimated at between 40 and 60 centimetres.",
+    "At approximately 2:17 in the afternoon, Mama Edna Mutua's sufuria of pilau — a fixture of the fundraiser since 1981, and regarded by regular attendees as its defining culinary provision — slid from the surface of the serving table. The precise cause of the movement has not been established. The sufuria struck the raffle display stand directly. The stand, constructed from chipboard and held together with wire affixings, collapsed on impact. Three hundred and twelve raffle tickets, each individually folded and placed in a wire drum for the draw, were dispersed across an area of approximately four square metres. The sufuria came to rest 0.9 metres from the table. It was undamaged. The pilau remained largely contained.",
+    "Father Kamau declared a brief pause in proceedings. The pause did not end in the resumption of the raffle. The assembled crowd assisted in collecting the displaced tickets, but the feasibility of conducting a fair draw from among the recovered tickets was not established to the satisfaction of the organising committee. The raffle was not drawn that afternoon. The Njoroge family's donated prize — a two-night, three-day weekend stay at Mombasa Palms Guesthouse, valued at Ksh 3,400 at the time of donation — was not awarded. No alternative draw date was announced. No further communication was issued to ticket holders.",
+    "The Mombasa Palms Guesthouse prize has not been claimed as of the date of this record's most recent update. The Njoroge family has not been reapproached regarding reissuance or revaluation of the prize. The raffle tickets, or a portion thereof, are believed to have been retained by the church secretary; no formal inventory was conducted. The sufuria was removed from the church hall following the event by Mama Edna Mutua. It is currently held in private custody. Its precise location is known to at least two individuals. Neither has been formally interviewed by the Heritage Trust. The serving table was replaced in 1993. The incident has not been officially closed by the organising committee, as no committee meeting to address it has been convened."
+  ],
+  "heritageTrustNote": "Mama Edna Mutua has stated, in her testimony collected in 2025, that the serving table was unstable prior to the incident and that she had raised this concern with a member of the organising committee. Gerald Otieno, who was seated at the front table nearest the serving area, has stated that the table appeared stable and that he observed the sufuria in motion before it reached the table's edge. These two accounts are not reconcilable on the available evidence. Both are preserved in full.",
+  "pullQuote": {
+    "quote": "I have replayed that moment every day for thirty-seven years. The sound the sufuria made. The silence that followed. And then Gerald.",
+    "attribution": "Agnes Wambua, 71, Eyewitness, Pew 3 (left side)"
+  },
+  "objectRecord": {
+    "ref": "OBJ-001",
+    "objectType": "Cooking vessel (sufuria)",
+    "material": "Aluminium, riveted handles",
+    "capacity": "Approximately 12 litres",
+    "condition": "Undamaged. No deformation recorded.",
+    "currentLocation": "Private custody. Location withheld at request of custodian."
+  },
+  "relatedIncidents": ["INC-1991-004", "INC-1994-011"],
+  "oralHistoryRefs": ["OHT-1991-001", "OHT-2025-044", "OHT-1993-003", "OHT-1993-002"],
+  "disputedAccount": {
+    "incidentRef": "INC-1987-003",
+    "conflictType": "Testimony Conflict",
+    "summary": "Conflicting accounts exist regarding the stability of the serving table prior to the displacement of the sufuria.",
+    "accountA": {
+      "witness": "Mama Edna Mutua",
+      "role": "Proprietor of the sufuria",
+      "text": "The table was not level. I raised this concern before serving began. The table had always been unreliable in that position."
+    },
+    "accountB": {
+      "witness": "Gerald Otieno",
+      "role": "Seated witness, front table",
+      "text": "The table was perfectly stable. I was watching it. I had no reason to watch an unstable table as closely as I did."
+    },
+    "heritageTrustNote": "These accounts bear directly on the question of preventability. The Heritage Trust has not determined which account is accurate. Both are preserved in full."
+  }
+}

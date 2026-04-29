@@ -1,0 +1,39 @@
+---
+description: Core project rules — stack, voice, naming, guardrails. Always active.
+alwaysApply: true
+---
+
+# Registry of Unresolved Community Incidents
+
+## Stack
+- Next.js 14 App Router, TypeScript strict, Tailwind CSS, MDX via next-mdx-remote
+- Flat JSON data files. No database. No CMS. No auth.
+
+## Roles
+- Cursor: /components/**, /app/** only
+- Do not edit /data/, /content/, /types/, /lib/ unless explicitly told to
+
+## Hard rules
+1. No `any` types. Ever.
+2. No hardcoded strings in components. Labels from /lib/constants.ts. Data from props.
+3. No inline styles. Tailwind only.
+4. No raw `<img>`. Use next/image.
+5. No `<form>` tags. Contact and submission pages are static in v1.
+6. No new component if one already exists. Check /components first.
+7. No client-side data fetching. FilterBar.tsx is the only client component.
+8. All dynamic routes must have generateStaticParams.
+
+## Voice
+All copy: formal, measured, civic, never ironic.
+- "The sufuria came to rest approximately 0.9 metres from the serving table. It was undamaged."
+- "Mr. Barasa has not been asked to explain. No explanation has been offered."
+- "The archive does not adjudicate. It documents."
+
+## Naming
+- Components: PascalCase — IncidentCard, HeritageTrustNote
+- Utilities: camelCase — getIncidentByRef
+- Data files: kebab-case — inc-1987-003.json
+- Refs: INC-YYYY-XXX · OHT-YYYY-XXX · OBJ-XXX
+
+## After every task
+State: files created/modified, next logical step, any deviations from design (should be none).

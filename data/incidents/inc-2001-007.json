@@ -1,0 +1,40 @@
+{
+  "ref": "INC-2001-007",
+  "name": "The Chair Incident",
+  "status": "CLOSED",
+  "date": "17 April 2001",
+  "dateShort": "17 Apr 2001",
+  "year": 2001,
+  "venue": "Umoja Estate Residents' Association AGM",
+  "categories": ["community meeting"],
+  "description": "Chair 14 was absent from the meeting hall before the AGM convened. Mr. Silas Barasa, its customary occupant, stood for the full two-hour duration without comment. He now brings his own folding chair.",
+  "featured": true,
+  "firstDocumented": "2002",
+  "lastUpdated": "2024",
+  "tags": ["Chair 14", "Silas Barasa", "AGM", "Umoja Estate", "2001", "folding chair"],
+  "prose": [
+    "The Annual General Meeting of the Umoja Estate Residents' Association was convened at the Estate Meeting Hall on the evening of 17 April 2001. Fifteen chairs had been arranged for the meeting's attendees, numbered by affixed card as was the Association's established practice. The meeting was scheduled to commence at 7:00 in the evening. The agenda included reports from four sub-committees and a motion regarding the maintenance levy for the forthcoming financial year.",
+    "Chair 14 was absent from the meeting hall when attendees arrived. Its regular occupant, Mr. Silas Barasa, who had sat in Chair 14 at every meeting since joining the Association in 1996, found the position unoccupied by any furniture. Chair 14 had been present on the previous evening, when several chairs were arranged in advance by a member of the committee. The chair was not found in any adjacent room or corridor. No member of the Association claimed responsibility for its removal, deliberate or otherwise. The matter was not raised during the meeting or in the minutes.",
+    "Mr. Barasa stood for the full duration of the meeting. The meeting lasted two hours and four minutes. No other attendee offered their chair. No committee member noted Mr. Barasa's standing position in the official minutes of the proceedings. Mr. Barasa made no remark during the meeting about the absent chair or his standing position. He participated in the evening's discussions without comment on the matter. The motion regarding the maintenance levy was carried by seven votes to three. Mr. Barasa did not vote, as his status as a voting member required a signature on the attendance register, which was positioned at a table he could not access from his standing position.",
+    "Mr. Silas Barasa has attended every Annual General Meeting of the Umoja Estate Residents' Association since April 2001. Since 2002, he has brought his own folding chair to each meeting. He has not been asked by the Association, or by any party on record, to account for the events of 17 April 2001. He has not offered an account of his own initiative. Chair 14 has not been recovered. The Association has not formally investigated the removal of the chair. This incident is closed."
+  ],
+  "heritageTrustNote": "The Residents' Association has not formally investigated the removal of the chair. Mr. Barasa, the chair's regular occupant, has attended every AGM since 2001. He has not been asked about the chair.",
+  "relatedIncidents": [],
+  "oralHistoryRefs": ["OHT-2019-031"],
+  "disputedAccount": {
+    "incidentRef": "INC-2001-007",
+    "conflictType": "Unverifiable Claim",
+    "summary": "No consensus exists on how or by whom Chair 14 was removed from the meeting hall before the AGM convened.",
+    "accountA": {
+      "witness": "P. Njoroge, 61",
+      "role": "AGM attendee, 2001",
+      "text": "The chair was not there when I arrived. I arrived forty minutes before the meeting. If it had been removed deliberately, someone would have known."
+    },
+    "accountB": {
+      "witness": "R. Mutuku, 59",
+      "role": "AGM attendee, 2001",
+      "text": "The chairs were set out the evening before. I helped set them. There were fifteen chairs. I counted them. I am certain of fifteen."
+    },
+    "heritageTrustNote": "The Residents' Association has not formally investigated the removal of the chair. Mr. Barasa, the chair's regular occupant, has attended every AGM since 2001. He has not been asked about the chair."
+  }
+}
