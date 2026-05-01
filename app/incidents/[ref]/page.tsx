@@ -77,12 +77,12 @@ export default function IncidentDetailPage({
               {INCIDENT_RECORD_SECTION_ORAL_HISTORIES}
             </SectionLabel>
 
-            <div className="overflow-x-auto lg:overflow-visible">
-              <div className="flex gap-4 pb-2 lg:grid lg:grid-cols-3 lg:pb-0">
+            <div className="-mx-4 overflow-x-auto px-4 pb-2 lg:mx-0 lg:overflow-visible lg:px-0 lg:pb-0">
+              <div className="flex flex-nowrap gap-3 pb-1 lg:grid lg:grid-cols-3 lg:gap-4 lg:pb-0">
                 {oralHistories.map((oralHistory) => (
                   <div
                     key={oralHistory.ref}
-                    className="w-[min(100%,18rem)] shrink-0 lg:w-auto lg:min-w-0 lg:shrink"
+                    className="min-w-[260px] shrink-0 lg:min-w-0 lg:shrink"
                   >
                     <OralHistoryCard
                       oralHistory={oralHistory}

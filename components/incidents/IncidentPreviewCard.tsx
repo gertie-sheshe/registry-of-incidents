@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import StatusPill from "@/components/ui/StatusPill";
+import { CTA_VIEW_FULL_RECORD } from "@/lib/constants";
 import type { Incident } from "@/types";
 
 type IncidentPreviewCardProps = {
@@ -33,7 +34,7 @@ export default function IncidentPreviewCard({
         href={`/incidents/${incident.ref}`}
         className="mt-3 block font-sans text-[12px] text-amber"
       >
-        View full record →
+        {CTA_VIEW_FULL_RECORD}
       </Link>
     </article>
   );

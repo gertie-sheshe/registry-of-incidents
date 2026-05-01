@@ -2,6 +2,7 @@ import Link from "next/link";
 
 import CategoryTag from "@/components/ui/CategoryTag";
 import StatusPill from "@/components/ui/StatusPill";
+import { CTA_VIEW_FULL_RECORD } from "@/lib/constants";
 import type { Incident } from "@/types";
 
 type IncidentCardProps = {
@@ -38,7 +39,7 @@ export default function IncidentCard({ incident }: IncidentCardProps): JSX.Eleme
         href={`/incidents/${incident.ref}`}
         className="mt-2 font-sans text-[12px] text-amber"
       >
-        View full record →
+        {CTA_VIEW_FULL_RECORD}
       </Link>
     </article>
   );

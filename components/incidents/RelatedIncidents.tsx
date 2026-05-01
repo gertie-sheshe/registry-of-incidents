@@ -2,6 +2,7 @@ import Link from "next/link";
 
 import SectionLabel from "@/components/ui/SectionLabel";
 import StatusPill from "@/components/ui/StatusPill";
+import { RELATED_INCIDENTS_LABEL, CTA_VIEW_FULL_RECORD } from "@/lib/constants";
 import type { Incident } from "@/types";
 
 type RelatedIncidentsProps = {
@@ -17,7 +18,7 @@ export default function RelatedIncidents({
 
   return (
     <section>
-      <SectionLabel className="mb-3">Related Incidents</SectionLabel>
+      <SectionLabel className="mb-3">{RELATED_INCIDENTS_LABEL}</SectionLabel>
 
       <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
         {relatedIncidents.map((incident) => (
@@ -39,7 +40,7 @@ export default function RelatedIncidents({
               href={`/incidents/${incident.ref}`}
               className="mt-3 block font-sans text-[12px] text-amber"
             >
-              View full record →
+              {CTA_VIEW_FULL_RECORD}
             </Link>
           </article>
         ))}

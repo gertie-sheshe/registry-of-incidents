@@ -461,3 +461,29 @@ export const BREADCRUMB_ORAL_HISTORIES = 'Oral Histories';
 // ─── Incident record (Screens 3 & 6) ────────────────────────────────────────────
 
 export const INCIDENT_RECORD_SECTION_ORAL_HISTORIES = 'Oral Histories';
+
+// ─── Component UI Labels ─────────────────────────────────────────────────────────
+
+export const HERITAGE_TRUST_NOTE_LABEL = 'HERITAGE TRUST NOTE —';
+
+export const CTA_VIEW_FULL_RECORD = 'View full record →';
+export const CTA_VIEW_FULL_INCIDENT_RECORD = 'View full incident record →';
+export const CTA_READ_FULL_TESTIMONY = 'Read full testimony →';
+export const CTA_VIEW_RECORD = 'View record →';
+
+export const DISPUTE_ACCOUNT_LABELS = ['Account A', 'Account B'] as const;
+
+export const OBJECT_CATALOGUE_TITLE = 'Object Catalogue Entry';
+
+export const OBJECT_FIELD_LABELS = {
+  objectType: 'Object Type',
+  material: 'Material',
+  capacity: 'Capacity',
+  condition: 'Condition',
+  currentLocation: 'Current Location',
+  catalogueRef: 'Catalogue Ref',
+} as const;
+
+export const RELATED_INCIDENTS_LABEL = 'Related Incidents';
+
+export const WITNESS_AGE_LABEL = 'Age';

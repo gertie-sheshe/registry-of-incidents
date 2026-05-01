@@ -44,10 +44,12 @@ export default function Home(): JSX.Element {
           {openIncident ? <AlertBar message={alertMessage} className="px-4 lg:px-6" /> : null}
 
           <section className="border-b border-rule px-4 py-8 text-center lg:px-0 lg:text-left">
-            <div className="flex flex-col items-center gap-5 lg:flex-row lg:items-start">
-              <InstitutionalSeal size={80} />
-              <div className="max-w-[740px]">
-                <h1 className="font-serif text-[34px] leading-[1.2] text-charcoal lg:text-[40px]">
+            <div className="flex w-full flex-col items-center gap-3.5 lg:flex-row lg:items-start lg:gap-5">
+              <div className="shrink-0 [&_svg]:h-[72px] [&_svg]:w-[72px] lg:[&_svg]:h-[80px] lg:[&_svg]:w-[80px]">
+                <InstitutionalSeal size={80} />
+              </div>
+              <div className="mx-auto w-full max-w-[740px] lg:mx-0">
+                <h1 className="font-serif text-2xl leading-[1.25] text-charcoal lg:text-[34px] lg:leading-[1.2] xl:text-[40px]">
                   {HERO_TITLE}
                 </h1>
                 <p className="mt-2 font-sans text-[15px] leading-[1.55] text-secondary">

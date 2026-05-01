@@ -33,7 +33,7 @@ export default function FilterBar({
 
   return (
     <div className={containerClasses}>
-      <div className="flex w-max min-w-full border-t border-rule whitespace-nowrap">
+      <div className="flex w-max min-w-full flex-nowrap border-t border-rule whitespace-nowrap">
         {options.map((option) => {
           const isActive = option.value === activeValue;
 

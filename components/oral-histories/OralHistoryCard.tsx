@@ -3,6 +3,7 @@ import Link from "next/link";
 import type { OralHistory } from "@/types";
 import CategoryTag from "@/components/ui/CategoryTag";
 import WitnessAvatar from "@/components/ui/WitnessAvatar";
+import { WITNESS_AGE_LABEL, CTA_READ_FULL_TESTIMONY, CTA_VIEW_RECORD } from "@/lib/constants";
 
 type OralHistoryCardProps = {
   oralHistory: OralHistory;
@@ -36,7 +37,7 @@ export function OralHistoryCard({
         <div className="min-w-0">
           <p className="font-serif text-[17px] text-charcoal leading-[1.2]">{witnessName}</p>
           {witnessAge !== null ? (
-            <p className="font-sans text-[13px] text-secondary mt-0.5">Age {witnessAge}</p>
+            <p className="font-sans text-[13px] text-secondary mt-0.5">{WITNESS_AGE_LABEL} {witnessAge}</p>
           ) : null}
           <p className="font-sans text-[12.5px] text-secondary mt-0.5">{role}</p>
           {note ? <p className="font-mono text-[10px] text-amber mt-1">{note}</p> : null}
@@ -60,11 +61,11 @@ export function OralHistoryCard({
       {showCta ? (
         ctaHref ? (
           <Link href={ctaHref} className="mt-3 block font-sans text-[12px] text-amber">
-            {hasStatement ? "Read full testimony →" : "View record →"}
+            {hasStatement ? CTA_READ_FULL_TESTIMONY : CTA_VIEW_RECORD}
           </Link>
         ) : (
           <a href="#" className="mt-3 block font-sans text-[12px] text-amber">
-            {hasStatement ? "Read full testimony →" : "View record →"}
+            {hasStatement ? CTA_READ_FULL_TESTIMONY : CTA_VIEW_RECORD}
           </a>
         )
       ) : null}

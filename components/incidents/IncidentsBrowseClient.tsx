@@ -77,7 +77,7 @@ export default function IncidentsBrowseClient({
         />
       </div>
 
-      <div className="mt-6 grid grid-cols-1 gap-4 px-4 pb-10 pt-8 md:grid-cols-2 lg:grid-cols-3 lg:px-10">
+      <div className="mt-6 grid grid-cols-1 gap-4 px-4 pb-10 pt-8 lg:grid-cols-3 lg:px-10">
         {filteredIncidents.map((incident) => (
           <IncidentCard key={incident.ref} incident={incident} />
         ))}

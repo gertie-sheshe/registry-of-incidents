@@ -3,6 +3,7 @@ import Link from "next/link";
 import CategoryTag from "@/components/ui/CategoryTag";
 import HeritageTrustNote from "@/components/ui/HeritageTrustNote";
 import StatusPill from "@/components/ui/StatusPill";
+import { DISPUTE_ACCOUNT_LABELS, CTA_VIEW_FULL_INCIDENT_RECORD } from "@/lib/constants";
 
 type DisputeCardProps = {
   incidentRef: string;
@@ -67,10 +68,10 @@ export default function DisputeCard({
         {accountDetails.map((account, index) => (
           <div
             key={index}
-            className="border-r-0 border-rule p-5 lg:border-r last:border-r-0"
+            className="border-rule border-b p-5 last:border-b-0 lg:border-b-0 lg:border-r lg:last:border-r-0"
           >
             <p className="mb-1 font-sans text-[10px] font-bold uppercase tracking-wider text-secondary">
-              {index === 0 ? "Account A" : "Account B"}
+              {DISPUTE_ACCOUNT_LABELS[index]}
             </p>
             <p className="font-sans text-[12.5px] font-semibold text-charcoal">
               {account.witness}
@@ -91,7 +92,7 @@ export default function DisputeCard({
 
       <footer className="flex justify-end border-t border-rule px-5 py-2.5">
         <Link href={`/incidents/${incidentRef}`} className="font-sans text-[12px] text-amber">
-          View full incident record →
+          {CTA_VIEW_FULL_INCIDENT_RECORD}
         </Link>
       </footer>
     </article>

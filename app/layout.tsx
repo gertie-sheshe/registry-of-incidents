@@ -46,7 +46,7 @@ export default function RootLayout({
         <div className="hidden lg:block">
           <SiteHeader />
         </div>
-        <main>{children}</main>
+        <main className="pb-[4.75rem] lg:pb-0">{children}</main>
         <div className="hidden lg:block">
           <SiteFooter />
         </div>

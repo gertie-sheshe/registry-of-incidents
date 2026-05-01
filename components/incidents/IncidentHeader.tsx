@@ -34,7 +34,7 @@ export default function IncidentHeader({ incident }: IncidentHeaderProps): JSX.E
         {incident.name}
       </h1>
 
-      <div className="hidden flex-wrap items-center font-sans text-[13px] text-secondary md:flex">
+      <div className="hidden flex-wrap items-center font-sans text-[13px] text-secondary lg:flex">
         <span className="border-rule pr-3">{incident.date}</span>
         <span className="border-rule border-r px-3">{incident.venue}</span>
         <span className="border-rule border-r px-3">
@@ -45,7 +45,7 @@ export default function IncidentHeader({ incident }: IncidentHeaderProps): JSX.E
         <span className="px-3">{incident.lastUpdated}</span>
       </div>
 
-      <div className="grid grid-cols-1 gap-2 border border-rule bg-[#F0EDE7] p-3 md:hidden">
+      <div className="grid grid-cols-1 gap-2 border border-rule bg-[#F0EDE7] p-3 lg:hidden">
         {metadataItems.map((item) => (
           <div key={item.label} className="flex flex-col gap-0.5">
             <span className="font-mono text-[9px] text-secondary">{item.label}</span>
