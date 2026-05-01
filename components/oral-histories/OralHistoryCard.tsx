@@ -1,12 +1,22 @@
+import Link from "next/link";
+
 import type { OralHistory } from "@/types";
 import CategoryTag from "@/components/ui/CategoryTag";
 import WitnessAvatar from "@/components/ui/WitnessAvatar";
 
 type OralHistoryCardProps = {
   oralHistory: OralHistory;
+  /** When set, the testimony link targets this URL instead of a placeholder. */
+  ctaHref?: string;
+  /** When false, the bottom CTA link is omitted (e.g. on the full testimony page). */
+  showCta?: boolean;
 };
 
-export function OralHistoryCard({ oralHistory }: OralHistoryCardProps): JSX.Element {
+export function OralHistoryCard({
+  oralHistory,
+  ctaHref,
+  showCta = true,
+}: OralHistoryCardProps): JSX.Element {
   const {
     witnessName,
     witnessAge,
@@ -47,9 +57,17 @@ export function OralHistoryCard({ oralHistory }: OralHistoryCardProps): JSX.Elem
         ))}
       </div>
 
-      <a href="#" className="block font-sans text-[12px] text-amber mt-3">
-        {hasStatement ? "Read full testimony →" : "View record →"}
-      </a>
+      {showCta ? (
+        ctaHref ? (
+          <Link href={ctaHref} className="mt-3 block font-sans text-[12px] text-amber">
+            {hasStatement ? "Read full testimony →" : "View record →"}
+          </Link>
+        ) : (
+          <a href="#" className="mt-3 block font-sans text-[12px] text-amber">
+            {hasStatement ? "Read full testimony →" : "View record →"}
+          </a>
+        )
+      ) : null}
     </article>
   );
 }

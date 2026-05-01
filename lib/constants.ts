@@ -63,6 +63,18 @@ export const FILTER_OPTIONS_DISPUTED: FilterOption[] = [
   { label: 'Unverifiable Claims', value: 'unverifiable-claims' },
 ];
 
+// ─── Listing pages (Screens 2 & 4) ─────────────────────────────────────────────
+
+export const BROWSE_INCIDENTS_PAGE_TITLE = 'Browse All Incidents';
+
+export const BROWSE_INCIDENTS_PAGE_SUBTITLE =
+  '22 incidents documented between 1978 and 2023. Sorted by date of occurrence. Filter by status or category.';
+
+export const ORAL_HISTORIES_PAGE_TITLE = 'Oral Histories';
+
+export const ORAL_HISTORIES_PAGE_SUBTITLE =
+  '47 testimonies collected between 1991 and 2025. All accounts given voluntarily. Conflicting testimonies are preserved without adjudication.';
+
 // ─── Footer ─────────────────────────────────────────────────────────────────────
 
 export const FOOTER_COPY = {
@@ -70,6 +82,8 @@ export const FOOTER_COPY = {
   address: 'Mwisho wa Mwisho District, Kenya',
   founded: 'Est. 1991',
 };
+
+export const ABOUT_ESTABLISHED_LINE = `${FOOTER_COPY.founded} · ${FOOTER_COPY.address}`;
 
 export const LEGAL_LINE =
   'The Registry of Unresolved Community Incidents does not determine fault, assign blame, or draw conclusions. It documents. © Mwisho wa Mwisho District Heritage Trust, 1991–2024.';
@@ -103,16 +117,38 @@ export const HERO_TAGLINE = 'Est. 1991 · 22 incidents documented · 1 incident 
 export const ALERT_BAR_TEXT =
   'Active documentation in progress: INC-2023-022 · The Performance Incident · Witness statements currently being collected.';
 
+export const ALERT_BAR_COPY = {
+  prefix: 'Active documentation in progress:',
+  suffix: 'Witness statements currently being collected.',
+} as const;
+
 export const DISPUTED_CALLOUT_TEXT =
   '9 incidents contain testimony in direct contradiction. The archive does not adjudicate. Both accounts are preserved in full.';
 
 export const OPEN_CALLOUT_TEXT =
   'Witness statements are currently being collected. The organising committee has not been formally contacted.';
 
+export const HOME_SECTION_LABELS = {
+  featuredIncident: 'FEATURED INCIDENT',
+  recentAdditions: 'RECENT ADDITIONS TO THE REGISTRY',
+  registryAtAGlance: 'REGISTRY AT A GLANCE',
+  incidentIndex: 'INCIDENT INDEX',
+} as const;
+
+export const HOME_LINK_LABELS = {
+  viewDisputedAccounts: 'View disputed accounts →',
+  viewOpenIncidentRecord: 'View full record →',
+} as const;
+
 // ─── About the Trust (Screen 9) ─────────────────────────────────────────────────
 
-export const ABOUT_HEADER_DESCRIPTION =
-  'The Heritage Trust was established to document community events of consequence in Mwisho wa Mwisho District. It does not determine outcomes. It does not assign responsibility. It records what occurred, as completely and accurately as the available evidence permits.';
+export const ABOUT_INTRO_PARAGRAPHS: string[] = [
+  'The Heritage Trust was established to document community events of consequence in Mwisho wa Mwisho District.',
+  'It does not determine outcomes. It does not assign responsibility.',
+  'It records what occurred, as completely and accurately as the available evidence permits.',
+];
+
+export const ABOUT_HEADER_DESCRIPTION = ABOUT_INTRO_PARAGRAPHS.join(' ');
 
 export const ABOUT_MISSION_QUOTE = {
   quote:
@@ -154,7 +190,17 @@ export const TRUSTEES: TrusteeData[] = [
 export const ABOUT_HERITAGE_NOTE =
   'The Heritage Trust is not a government body. It receives no public funding. It operates on voluntary contributions from the community and an annual allocation from the Mwisho wa Mwisho District Development Fund, which has been renewed each year since 1994 without formal review. The Trust has not sought to expand its remit beyond Mwisho wa Mwisho District. It does not consider this a limitation.';
 
+export const ABOUT_PAGE_SECTION_LABELS = {
+  foundingFamilies: 'The Three Founding Families',
+  trustees: 'Current Trustees',
+  archiveNumbers: 'The Archive in Numbers',
+} as const;
+
 // ─── Submission Guidelines (Screen 10) ──────────────────────────────────────────
+
+export const SUBMISSION_PAGE_TITLE = 'How to Submit to the Registry';
+
+export const SUBMISSION_PAGE_SECTION_LABEL = 'Submission Guidelines';
 
 export const SUBMISSION_INTRO =
   "The Heritage Trust welcomes submissions from community members in three categories: new incidents, oral testimonies related to existing incidents, and documentary materials. All submissions are assessed by the Trust's archivist before entry into the registry.";
@@ -192,6 +238,12 @@ export const SUBMISSION_CLOSING_NOTE =
   "The Heritage Trust does not investigate incidents. It documents them. Submission of an incident does not constitute an allegation. Entry into the registry does not constitute a finding. The Trust is not a court of law, a tribunal, or a complaints body. It is an archive. If you are seeking a resolution to a community dispute, the Trust respectfully suggests contacting the appropriate authorities.";
 
 // ─── Contact (Screen 11) ─────────────────────────────────────────────────────────
+
+export const CONTACT_PAGE_SECTION_LABEL = 'Contact';
+
+export const CONTACT_PAGE_TITLE = 'Contact the Heritage Trust';
+
+export const CONTACT_NOTE_SECTION_LABEL = 'A Note on Communication';
 
 export const CONTACT_INTRO =
   'The Heritage Trust office is staffed on Tuesday and Thursday mornings. Correspondence is replied to within fourteen working days. The Trust requests that enquiries be specific and that correspondents identify themselves by name.';
@@ -243,11 +295,17 @@ export const CONTACT_COMMUNICATION_PARAGRAPHS: string[] = [
 
 // ─── Privacy Notice (Screen 12) ──────────────────────────────────────────────────
 
+export const PRIVACY_PAGE_SECTION_LABEL = 'Privacy';
+
+export const PRIVACY_PAGE_TITLE = 'Privacy Notice';
+
 export const PRIVACY_INTRO =
   'The Heritage Trust holds information about community members in the course of its archival work. This notice explains what is held, how it is used, and what rights individuals have in relation to it. The Trust has endeavoured to write this notice in plain language. Where it has not succeeded, it apologises.';
 
 export const PRIVACY_LAST_UPDATED = 'January 2024';
 export const PRIVACY_REF = 'TRUST-PRIV-2024-001';
+
+export const PRIVACY_LAST_UPDATED_LINE = `Last updated: ${PRIVACY_LAST_UPDATED} · Ref: ${PRIVACY_REF}`;
 
 export const PRIVACY_SECTIONS: StaticPageSection[] = [
   {
@@ -306,6 +364,23 @@ export const PRIVACY_FOOTER_NOTE =
 
 // ─── Open Incidents Page (Screen 8) ──────────────────────────────────────────────
 
+export const OPEN_INCIDENTS_ALERT_BAR_MESSAGE =
+  '1 incident currently open. Documentation is active. Witness statements are being collected.';
+
+export const OPEN_INCIDENT_UNDER_ACTIVE_DOCUMENTATION =
+  'Under active documentation';
+
+export const OPEN_INCIDENTS_PAGE_SECTION_LABELS = {
+  documentationTimeline: 'Documentation Timeline',
+  submitWitnessStatement: 'Submit a Witness Statement',
+  whatConstitutesOpen: 'What Constitutes an Open Incident',
+  closedIncidents: 'Closed Incidents',
+} as const;
+
+export const VIEW_SUBMISSION_GUIDELINES_LINK = 'View submission guidelines →';
+
+export const CLOSED_INCIDENTS_STAT_LINE = '21 of 22 incidents are closed.';
+
 export const OPEN_INCIDENTS_INTRO =
   'An incident is designated OPEN when it has occurred, has been entered into the registry, and remains under active documentation. The Heritage Trust continues to collect testimony, seek responses from relevant parties, and update the record. An open incident is not a criminal matter. It is an unfinished piece of history.';
 
@@ -363,6 +438,9 @@ export const DOCUMENTATION_TIMELINE: DocumentationTimelineEntry[] = [
 
 // ─── Disputed Accounts Page (Screen 7) ───────────────────────────────────────────
 
+export const DISPUTED_ACCOUNTS_PAGE_BANNER_NOTE =
+  'The archive does not adjudicate. It documents. Where two accounts cannot be reconciled, both are preserved.';
+
 export const DISPUTED_ACCOUNTS_INTRO =
   '9 incidents in the registry contain oral or documentary testimony that is in direct and irresolvable conflict. The Heritage Trust does not adjudicate between accounts. Both sides of each dispute are preserved here in full, without editorial preference.';
 
@@ -379,3 +457,7 @@ export const DISPUTED_ACCOUNTS_STAT = {
 export const BREADCRUMB_REGISTRY = 'Registry';
 export const BREADCRUMB_BROWSE = 'Browse Incidents';
 export const BREADCRUMB_ORAL_HISTORIES = 'Oral Histories';
+
+// ─── Incident record (Screens 3 & 6) ────────────────────────────────────────────
+
+export const INCIDENT_RECORD_SECTION_ORAL_HISTORIES = 'Oral Histories';

@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 type MobileTopBarProps =
   | {
       variant: 'hamburger';
@@ -6,6 +8,7 @@ type MobileTopBarProps =
   | {
       variant: 'back';
       backLabel: string;
+      backHref: string;
     };
 
 export default function MobileTopBar(props: MobileTopBarProps) {
@@ -21,12 +24,15 @@ export default function MobileTopBar(props: MobileTopBarProps) {
           </span>
         </>
       ) : (
-        <div className="flex items-center gap-2">
+        <Link
+          href={props.backHref}
+          className="flex items-center gap-2.5 text-secondary no-underline hover:underline"
+        >
           <span aria-hidden="true" className="text-[18px] leading-none text-charcoal">
             ←
           </span>
-          <span className="font-sans text-[13px] text-secondary">{props.backLabel}</span>
-        </div>
+          <span className="font-sans text-[13px]">{props.backLabel}</span>
+        </Link>
       )}
     </div>
   );

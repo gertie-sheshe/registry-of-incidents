@@ -1,101 +1,150 @@
-import Image from "next/image";
+import Link from "next/link";
 
-export default function Home() {
+import IncidentIndexList from "@/components/incidents/IncidentIndexList";
+import IncidentPreviewCard from "@/components/incidents/IncidentPreviewCard";
+import AlertBar from "@/components/ui/AlertBar";
+import InstitutionalSeal from "@/components/ui/InstitutionalSeal";
+import PullQuote from "@/components/ui/PullQuote";
+import SectionLabel from "@/components/ui/SectionLabel";
+import StatBlock from "@/components/ui/StatBlock";
+import StatusPill from "@/components/ui/StatusPill";
+import {
+  ALERT_BAR_COPY,
+  ALERT_BAR_TEXT,
+  DISPUTED_CALLOUT_TEXT,
+  HERO_SUBTITLE,
+  HERO_TAGLINE,
+  HERO_TITLE,
+  HOME_LINK_LABELS,
+  HOME_SECTION_LABELS,
+  NAV_ITEMS,
+  OPEN_CALLOUT_TEXT,
+  REGISTRY_STATS,
+} from "@/lib/constants";
+import { getAllIncidents, getFeaturedIncidents, getOpenIncidents } from "@/lib/incidents";
+
+export default function Home(): JSX.Element {
+  const featuredIncident = getFeaturedIncidents()[0];
+  const allIncidents = getAllIncidents();
+  const openIncident = getOpenIncidents()[0];
+  const recentIncidents = [...allIncidents]
+    .sort((a, b) => b.year - a.year)
+    .slice(0, 3);
+
+  const disputedAccountsItem = NAV_ITEMS.find((item) => item.href === "/disputed-accounts");
+  const openIncidentsItem = NAV_ITEMS.find((item) => item.href === "/open-incidents");
+  const alertMessage = openIncident
+    ? `${ALERT_BAR_COPY.prefix} ${openIncident.ref} · ${openIncident.name} · ${ALERT_BAR_COPY.suffix}`
+    : ALERT_BAR_TEXT;
+
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <div className="px-4 pb-10 pt-5 lg:px-10 lg:pb-12 lg:pt-8">
+      <div className="flex flex-col gap-8 lg:flex-row lg:gap-8">
+        <div className="flex-1">
+          {openIncident ? <AlertBar message={alertMessage} className="px-4 lg:px-6" /> : null}
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+          <section className="border-b border-rule px-4 py-8 text-center lg:px-0 lg:text-left">
+            <div className="flex flex-col items-center gap-5 lg:flex-row lg:items-start">
+              <InstitutionalSeal size={80} />
+              <div className="max-w-[740px]">
+                <h1 className="font-serif text-[34px] leading-[1.2] text-charcoal lg:text-[40px]">
+                  {HERO_TITLE}
+                </h1>
+                <p className="mt-2 font-sans text-[15px] leading-[1.55] text-secondary">
+                  {HERO_SUBTITLE}
+                </p>
+                <hr className="my-4 w-[120px] border-0 border-t border-amber mx-auto lg:mx-0" />
+                <p className="font-mono text-[10.5px] tracking-[0.04em] text-secondary">
+                  {HERO_TAGLINE}
+                </p>
+              </div>
+            </div>
+          </section>
+
+          {featuredIncident ? (
+            <section className="px-4 py-8 lg:px-0">
+              <SectionLabel>{HOME_SECTION_LABELS.featuredIncident}</SectionLabel>
+              <div className="mt-3 space-y-4">
+                {featuredIncident.prose.map((paragraph) => (
+                  <p
+                    key={paragraph}
+                    className="font-sans text-[14.5px] leading-[1.75] text-charcoal"
+                  >
+                    {paragraph}
+                  </p>
+                ))}
+              </div>
+              {featuredIncident.pullQuote ? (
+                <PullQuote
+                  quote={featuredIncident.pullQuote.quote}
+                  attribution={featuredIncident.pullQuote.attribution}
+                />
+              ) : null}
+            </section>
+          ) : null}
+
+          <section className="border-t border-rule px-4 py-8 lg:px-0">
+            <SectionLabel>{HOME_SECTION_LABELS.recentAdditions}</SectionLabel>
+            <div className="mt-4 grid grid-cols-1 gap-3">
+              {recentIncidents.map((incident) => (
+                <IncidentPreviewCard key={incident.ref} incident={incident} />
+              ))}
+            </div>
+          </section>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+
+        <aside className="w-full border-t border-rule pt-8 lg:w-[300px] lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0">
+          <SectionLabel>{HOME_SECTION_LABELS.registryAtAGlance}</SectionLabel>
+          <div className="mt-3 grid grid-cols-2 border border-rule">
+            {REGISTRY_STATS.map((stat, index) => (
+              <StatBlock
+                key={stat.label}
+                value={stat.value}
+                label={stat.label}
+                className={[
+                  index % 2 === 0 ? "border-r border-rule" : "",
+                  index < 2 ? "border-b border-rule" : "",
+                ]
+                  .filter(Boolean)
+                  .join(" ")}
+              />
+            ))}
+          </div>
+
+          <div className="mt-8">
+            <SectionLabel>{HOME_SECTION_LABELS.incidentIndex}</SectionLabel>
+            <div className="mt-3">
+              <IncidentIndexList incidents={allIncidents} />
+            </div>
+          </div>
+
+          <div className="mt-8 border border-rule p-4">
+            <SectionLabel>{disputedAccountsItem?.label ?? ""}</SectionLabel>
+            <p className="mt-2 font-sans text-[13px] leading-[1.6] text-charcoal">
+              {DISPUTED_CALLOUT_TEXT}
+            </p>
+            <Link href="/disputed-accounts" className="mt-2 inline-block font-sans text-[12px] text-amber">
+              {HOME_LINK_LABELS.viewDisputedAccounts}
+            </Link>
+          </div>
+
+          {openIncident ? (
+            <div className="mt-4 border-l-4 border-amber bg-amber-light p-4">
+              <div className="flex items-start justify-between gap-3">
+                <SectionLabel className="text-amber-deep">{openIncidentsItem?.label ?? ""}</SectionLabel>
+                <StatusPill status="OPEN" />
+              </div>
+              <p className="mt-2 font-serif text-[18px] leading-[1.3] text-charcoal">{openIncident.name}</p>
+              <p className="mt-2 font-sans text-[12.5px] leading-[1.5] text-amber-deep">
+                {OPEN_CALLOUT_TEXT}
+              </p>
+              <Link href="/open-incidents" className="mt-2 inline-block font-sans text-[12px] text-amber">
+                {HOME_LINK_LABELS.viewOpenIncidentRecord}
+              </Link>
+            </div>
+          ) : null}
+        </aside>
+      </div>
     </div>
   );
 }

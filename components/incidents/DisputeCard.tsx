@@ -77,7 +77,7 @@ export default function DisputeCard({
             </p>
             <p className="mb-2.5 font-sans text-[11.5px] text-secondary">{account.role}</p>
             <p className="font-serif text-[15px] italic leading-[1.65] text-charcoal">
-              "{account.quote}"
+              {`\u201C${account.quote}\u201D`}
             </p>
           </div>
         ))}
