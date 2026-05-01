@@ -1,16 +1,33 @@
+'use client';
+
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+
+import type { NavItem } from '@/types';
 
 import { BOTTOM_TAB_ITEMS } from '@/lib/constants';
 
+const HOME_TAB: NavItem = { label: 'Home', href: '/' };
+
+const TAB_ITEMS: NavItem[] = [HOME_TAB, ...BOTTOM_TAB_ITEMS];
+
+function isTabActive(pathname: string, href: string): boolean {
+  if (href === '/') {
+    return pathname === '/';
+  }
+  return pathname === href || pathname.startsWith(`${href}/`);
+}
+
 export default function BottomTabBar() {
+  const pathname = usePathname();
+
   return (
     <nav
       aria-label="Bottom navigation"
       className="fixed bottom-0 left-0 right-0 z-40 flex border-t border-rule bg-cream lg:hidden"
     >
-      {BOTTOM_TAB_ITEMS.map((item, index) => {
-        // Phase 5 will replace this with route-based active state logic.
-        const isActive = index === 0;
+      {TAB_ITEMS.map((item) => {
+        const isActive = isTabActive(pathname, item.href);
 
         return (
           <Link
