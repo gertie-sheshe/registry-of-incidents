@@ -1,40 +1,45 @@
-{
-  "ref": "INC-1991-004",
-  "name": "The Closing Prayer Incident",
-  "status": "CLOSED",
-  "date": "3 March 1991",
-  "dateShort": "3 Mar 1991",
-  "year": 1991,
-  "venue": "Heritage Trust Inaugural Meeting, Mwisho wa Mwisho Community Hall",
-  "categories": ["community meeting"],
-  "description": "The elder invited to close the Heritage Trust's inaugural meeting in prayer prayed for 22 minutes. Three attendees departed before the amen. All three are recorded in the official minutes as present.",
-  "featured": false,
-  "firstDocumented": "1991",
-  "lastUpdated": "2024",
-  "tags": ["closing prayer", "Heritage Trust", "minutes", "1991", "inaugural meeting", "Elder Mwangi"],
-  "prose": [
-    "The inaugural meeting of the Mwisho wa Mwisho District Heritage Trust was convened at the Community Hall on 3 March 1991 at 9:00 in the morning. Nine founding members were in attendance, representing three founding families. The meeting lasted three hours and fourteen minutes. It addressed the Trust's founding charter, the scope of its documentation mandate, its administrative structure, and the procedure for receiving incident submissions from community members. At approximately 12:14 in the afternoon, the proceedings moved to a closing prayer.",
-    "Elder Jeremiah Mwangi, invited by the presiding member to close the meeting in prayer, began at approximately 12:14 and concluded at 12:36. The prayer lasted twenty-two minutes. It addressed, among other matters, the Trust's founding purpose, the condition of the district, the health of several named community members, the success of the forthcoming harvest, and matters of a personal nature whose relevance to the Trust's mandate was not questioned at the time. For the first twelve minutes of the prayer, the nine founding members remained standing.",
-    "At a point between the twelfth and fourteenth minute of the prayer, three founding members — whose names appear in the official minutes of the inaugural meeting without any distinguishing annotation — departed the meeting room. Their departure was observed by the remaining attendees. No interruption was made to the prayer. The prayer continued and concluded without any acknowledgement of the departures. The amen was said at 12:36. The three members were not present to say it.",
-    "The official minutes of the inaugural meeting, recorded by the Trust's founding secretary, Mrs. Felicity Mwangi, record all nine founding members as present at the meeting. The three members who departed before the amen are listed without annotation, in the same manner as those who remained. All three have separately and individually confirmed, in testimonies collected by the Trust between 1992 and 1995, that they had left the room before the prayer concluded. None disputes that the prayer was still in progress when they left. Mrs. Mwangi has not provided a statement regarding the preparation of the minutes. This incident is the only one in the registry in which the documenting institution is itself implicated as a party."
-  ],
-  "heritageTrustNote": "This is the only incident in the registry in which the Heritage Trust itself is implicated as a party to the discrepancy. The minutes were recorded by the Trust's founding secretary, who has not provided a statement. The Trust acknowledges the irregularity and considers it documented.",
-  "relatedIncidents": ["INC-1987-003"],
-  "oralHistoryRefs": [],
-  "disputedAccount": {
-    "incidentRef": "INC-1991-004",
-    "conflictType": "Documentary Conflict",
-    "summary": "The official minutes record three individuals as present at the meeting's close. All three had departed before the amen was said.",
-    "accountA": {
-      "witness": "Heritage Trust Minutes, 3 March 1991",
-      "role": "Documentary record",
-      "text": "Minutes read: \"The meeting was closed in prayer and fellowship. All founding members in attendance.\" Three names follow, each of whom — by separate oral accounts — had left."
+
+  {
+    "ref": "INC-2013-038",
+    "name": "The Premature Cutting",
+    "status": "DISPUTED",
+    "date": "26 January 2013",
+    "dateShort": "26 Jan 2013",
+    "year": 2013,
+    "venue": "Kamakis Roadside Butchery and Grounds, Ruiru",
+    "categories": ["nyama choma gathering"],
+    "description": "At the Mutua family nyama choma gathering of January 2013, the meat was cut before Uncle Festus arrived. Uncle Festus had specifically requested that cutting not begin without him. He had been twenty minutes away for one hour and forty minutes. The cutter has not been identified. Uncle Festus has not attended a family gathering since.",
+    "featured": true,
+    "firstDocumented": "2013",
+    "lastUpdated": "2025",
+    "tags": ["nyama choma", "Ruiru", "cutting", "Uncle Festus", "family gathering", "unidentified cutter"],
+    "prose": [
+      "The Mutua family nyama choma gathering of 26 January 2013 was convened at Kamakis Roadside Butchery and Grounds, Ruiru, to mark the safe return of Mr. David Mutua from a two-year contract in Qatar. Seventeen family members were present by 1:00 PM. The meat — two whole goats and one hindquarter of beef, totalling an estimated 34 kilograms — had been on the jiko since 11:30 AM and was, by all accounts, ready by 1:45 PM.",
+      "Uncle Festus Mutua, the family patriarch and elder brother of the gathering's host, had communicated via phone at 12:30 PM that he was twenty minutes away and that cutting should not commence without him. This request was relayed to the group by the host, Mr. David Mutua, who confirmed it would be honoured. At 1:00 PM Uncle Festus called again to say he was still twenty minutes away. At 1:30 PM he called to say he was almost there. At 2:05 PM he called to say he had been delayed at the petrol station.",
+      "At 2:17 PM, someone cut the meat. The event was not witnessed directly by any member of the gathering who has been willing to identify the cutter. The meat was distributed and substantially consumed before Uncle Festus arrived at 2:44 PM. He was presented with a plate that had been set aside. He looked at the plate. He looked at the gathering. He ate in silence. He left before the mandazi.",
+      "Uncle Festus has not attended a Mutua family gathering since 26 January 2013. He has acknowledged subsequent invitations with the phrase 'I will try to make it.' He has not tried to make it. The cutter has not come forward. Seven family members, when asked individually by the Heritage Trust, named a different person. The incident is DISPUTED."
+    ],
+    "heritageTrustNote": "The Heritage Trust has conducted informal interviews with nine members of the Mutua family. Nine different accounts of the cutting were given. Two accounts named the same person but disagreed on whether it was deliberate. Uncle Festus declined to give testimony, stating only that he remembered the petrol station.",
+    "pullQuote": {
+      "quote": "He looked at that plate for a long time. None of us said anything. The goat had already been eaten. There was nothing to say.",
+      "attribution": "Cousin Eunice Mutua, 41, Eyewitness"
     },
-    "accountB": {
-      "witness": "Multiple oral accounts (3 witnesses)",
-      "role": "Testimonies collected 1992–1995",
-      "text": "All three named individuals have separately confirmed that they had departed before the prayer concluded. None disputes that the prayer was still in progress when they left."
-    },
-    "heritageTrustNote": "This is the only incident in the registry in which the Heritage Trust itself is implicated as a party to the discrepancy. The minutes were recorded by the Trust's founding secretary, who has not provided a statement."
+    "relatedIncidents": [],
+    "oralHistoryRefs": ["OHT-2013-040", "OHT-2025-042"],
+    "disputedAccount": {
+      "incidentRef": "INC-2013-038",
+      "conflictType": "Identity Dispute",
+      "summary": "The identity of the person who cut the meat before Uncle Festus arrived has not been established.",
+      "accountA": {
+        "witness": "Cousin James Mutua",
+        "role": "Family member, seated near jiko",
+        "text": "I did not cut it. I was nowhere near the jiko at that time. I was talking to Auntie Grace on the other side of the compound."
+      },
+      "accountB": {
+        "witness": "Auntie Grace Mutua",
+        "role": "Family member, host's wife",
+        "text": "James was not talking to me at that time. I was inside the house. The meat was already cut when I came back out."
+      },
+      "heritageTrustNote": "The Heritage Trust notes that Auntie Grace's account eliminates James Mutua's alibi without establishing an alternative suspect. Both accounts are preserved in full."
+    }
   }
-}

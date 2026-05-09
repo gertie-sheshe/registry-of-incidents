@@ -1,40 +1,48 @@
 {
-  "ref": "INC-2001-007",
-  "name": "The Chair Incident",
-  "status": "CLOSED",
-  "date": "17 April 2001",
-  "dateShort": "17 Apr 2001",
-  "year": 2001,
-  "venue": "Umoja Estate Residents' Association AGM",
-  "categories": ["community meeting"],
-  "description": "Chair 14 was absent from the meeting hall before the AGM convened. Mr. Silas Barasa, its customary occupant, stood for the full two-hour duration without comment. He now brings his own folding chair.",
-  "featured": true,
-  "firstDocumented": "2002",
-  "lastUpdated": "2024",
-  "tags": ["Chair 14", "Silas Barasa", "AGM", "Umoja Estate", "2001", "folding chair"],
-  "prose": [
-    "The Annual General Meeting of the Umoja Estate Residents' Association was convened at the Estate Meeting Hall on the evening of 17 April 2001. Fifteen chairs had been arranged for the meeting's attendees, numbered by affixed card as was the Association's established practice. The meeting was scheduled to commence at 7:00 in the evening. The agenda included reports from four sub-committees and a motion regarding the maintenance levy for the forthcoming financial year.",
-    "Chair 14 was absent from the meeting hall when attendees arrived. Its regular occupant, Mr. Silas Barasa, who had sat in Chair 14 at every meeting since joining the Association in 1996, found the position unoccupied by any furniture. Chair 14 had been present on the previous evening, when several chairs were arranged in advance by a member of the committee. The chair was not found in any adjacent room or corridor. No member of the Association claimed responsibility for its removal, deliberate or otherwise. The matter was not raised during the meeting or in the minutes.",
-    "Mr. Barasa stood for the full duration of the meeting. The meeting lasted two hours and four minutes. No other attendee offered their chair. No committee member noted Mr. Barasa's standing position in the official minutes of the proceedings. Mr. Barasa made no remark during the meeting about the absent chair or his standing position. He participated in the evening's discussions without comment on the matter. The motion regarding the maintenance levy was carried by seven votes to three. Mr. Barasa did not vote, as his status as a voting member required a signature on the attendance register, which was positioned at a table he could not access from his standing position.",
-    "Mr. Silas Barasa has attended every Annual General Meeting of the Umoja Estate Residents' Association since April 2001. Since 2002, he has brought his own folding chair to each meeting. He has not been asked by the Association, or by any party on record, to account for the events of 17 April 2001. He has not offered an account of his own initiative. Chair 14 has not been recovered. The Association has not formally investigated the removal of the chair. This incident is closed."
+  "ref": "INC-2014-037",
+  "name": "The Owl That Attended",
+  "status": "OPEN",
+  "date": "7 February 2014",
+  "dateShort": "7 Feb 2014",
+  "year": 2014,
+  "venue": "Bethel Prayer Mountain Fellowship, Kisii",
+  "categories": [
+    "church fellowship"
   ],
-  "heritageTrustNote": "The Residents' Association has not formally investigated the removal of the chair. Mr. Barasa, the chair's regular occupant, has attended every AGM since 2001. He has not been asked about the chair.",
+  "description": "During the monthly overnight fellowship at Bethel Prayer Mountain, a large owl landed on the windowsill at 1:00 AM and remained for forty-seven minutes. Eleven of the twenty-two members present left the building immediately. Four stayed to pray against it specifically. Three attempted to photograph it. The owl departed without incident. Within six weeks, two of those who fled experienced misfortune. The fellowship has held two special sessions to discuss the theological implications. No consensus has been reached.",
+  "featured": true,
+  "firstDocumented": "2014",
+  "lastUpdated": "2025",
+  "tags": [
+    "church fellowship",
+    "Kisii",
+    "owl",
+    "supernatural",
+    "omen",
+    "prayer mountain",
+    "open"
+  ],
+  "prose": [
+    "The monthly overnight prayer fellowship at Bethel Prayer Mountain, Kisii, was in its third hour on the night of 7 February 2014 when, at approximately 1:00 AM, a large owl landed on the outer sill of the east-facing window and settled there with the composure of something that had intended to arrive. The fellowship at the time comprised twenty-two members engaged in intercessory prayer.",
+    "The owl's arrival was noted sequentially, beginning with Sister Moraa, seated nearest the east window, whose sharp intake of breath caused the adjacent members to look up, which caused the members beyond them to look up, until all twenty-two were looking at the window. The owl looked back. It was large. Its eyes were described by six separate witnesses as 'yellow,' 'very yellow,' 'too yellow,' 'yellow and knowing,' and, by one witness, simply as 'a problem.'",
+    "Eleven members left the building immediately and did not return that night. This group included three deacons, the fellowship treasurer, and the woman who had been leading the prayer at the moment of arrival, who dropped the microphone in a manner that produced significant audio feedback. Four members — led by Brother Elkana Nyamweya — formed a prayer circle and began rebuking the owl directly and at volume, citing Psalms 91 and Luke 10:19. Three members attempted to photograph it using mobile phones. The owl sat for forty-seven minutes, during which Brother Nyamweya's rebuking group increased in intensity without visible effect on the owl. The owl then departed of its own accord.",
+    "In the six weeks following the fellowship, two of the eleven who had fled experienced misfortune: one lost a significant business contract and one was involved in a minor road accident from which she recovered fully. The remaining nine who fled, the four who prayed against the owl, and the three who photographed it all experienced no recorded misfortune. The fellowship has convened two special sessions to discuss the theological implications. No consensus has been reached. The incident is OPEN."
+  ],
+  "heritageTrustNote": "Two of the three mobile phone photographs have been lost to phone replacements. The third was recovered and shows a blurred window and what may be a large bird or may be a reflection. It has been catalogued as Exhibit OWL-01. Brother Nyamweya stands by the rebuke. The owl has not returned, as far as can be confirmed.",
+  "pullQuote": {
+    "quote": "I was not running. I was relocating my prayer to the outside. There is a difference. Also it was very large.",
+    "attribution": "Deacon Zablon Omari, 55, One of the eleven who left"
+  },
+  "objectRecord": {
+    "ref": "OBJ-021",
+    "objectType": "Mobile phone photograph, blurred",
+    "material": "Digital image",
+    "condition": "Recovered. Contents partially interpretable.",
+    "currentLocation": "Heritage Trust Digital Archive. Catalogued as Exhibit OWL-01."
+  },
   "relatedIncidents": [],
-  "oralHistoryRefs": ["OHT-2019-031"],
-  "disputedAccount": {
-    "incidentRef": "INC-2001-007",
-    "conflictType": "Unverifiable Claim",
-    "summary": "No consensus exists on how or by whom Chair 14 was removed from the meeting hall before the AGM convened.",
-    "accountA": {
-      "witness": "P. Njoroge, 61",
-      "role": "AGM attendee, 2001",
-      "text": "The chair was not there when I arrived. I arrived forty minutes before the meeting. If it had been removed deliberately, someone would have known."
-    },
-    "accountB": {
-      "witness": "R. Mutuku, 59",
-      "role": "AGM attendee, 2001",
-      "text": "The chairs were set out the evening before. I helped set them. There were fifteen chairs. I counted them. I am certain of fifteen."
-    },
-    "heritageTrustNote": "The Residents' Association has not formally investigated the removal of the chair. Mr. Barasa, the chair's regular occupant, has attended every AGM since 2001. He has not been asked about the chair."
-  }
+  "oralHistoryRefs": [
+    "OHT-2014-039",
+    "OHT-2025-044"
+  ]
 }

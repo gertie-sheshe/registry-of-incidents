@@ -1,24 +1,29 @@
-{
-  "ref": "INC-2023-022",
-  "name": "The Performance Incident",
-  "status": "OPEN",
-  "date": "8 August 2023",
-  "dateShort": "8 Aug 2023",
-  "year": 2023,
-  "venue": "Sato Nane Celebrations Ground, Mwisho wa Mwisho",
-  "categories": ["celebrations", "community meeting"],
-  "description": "A special musical performance was announced by the MC and did not occur. The programme continued. The printed programme retained the listing. The artist was not present and has not been contacted.",
-  "featured": false,
-  "firstDocumented": "2023",
-  "lastUpdated": "2025",
-  "tags": ["performance", "Sato Nane", "2023", "programme", "artist", "MC", "DOC-2023-014"],
-  "prose": [
-    "At the Sato Nane celebrations held on 8 August 2023 at the Mwisho wa Mwisho celebrations ground, the Master of Ceremonies announced, at approximately 4:40 in the afternoon, that a special musical performance would take place. He announced it by name. He thanked the artist in advance. The crowd acknowledged the announcement.",
-    "The performance did not take place. The MC continued with the programme without reference to its absence. The printed programme, distributed to attendees prior to the event, continued to list the performance in its original position on the running order. No amendment was circulated. No announcement was made regarding the performance's cancellation or postponement.",
-    "The artist named in the announcement was not present at the venue at any point during the celebrations. The organising committee has not contacted the artist for comment, or has not disclosed that it has done so. The Heritage Trust has written to the committee on two occasions. No response has been received. The performance listing remains in the printed programme, which is held in the Trust's archive under ref DOC-2023-014.",
-    "This incident is currently open. The Heritage Trust regards it as unresolved not because the performance's absence is in doubt — it is not — but because no authoritative account of the sequence of events leading to the announcement has been obtained. The archive will remain open until such an account is provided, or until the Trust determines that no further testimony is obtainable."
-  ],
-  "heritageTrustNote": "The Heritage Trust notes that the name of the artist has been withheld from this public record pending formal contact. Should the artist or a representative come forward, this record will be updated. The Trust does not draw conclusions from the artist's absence. Absence is documented; it is not interpreted.",
-  "relatedIncidents": [],
-  "oralHistoryRefs": []
-}
+
+  {
+    "ref": "INC-2003-019",
+    "name": "The Professional Mourner Escalation",
+    "status": "CLOSED",
+    "date": "17 June 2003",
+    "dateShort": "17 Jun 2003",
+    "year": 2003,
+    "venue": "Wafula Family Homestead, Malava, Kakamega",
+    "categories": ["matanga"],
+    "description": "At the matanga of the late Mr. Justus Wafula, a hired professional mourner became so emotionally invested in her performance that she collapsed twice, was revived twice, refused to leave, and was eventually found the following morning asleep under the food preparation table. She had outlasted all blood relatives. She has since been rehired by the family on two occasions.",
+    "featured": true,
+    "firstDocumented": "2003",
+    "lastUpdated": "2025",
+    "tags": ["matanga", "Malava", "Kakamega", "professional mourner", "collapse", "Western Kenya"],
+    "prose": [
+      "The matanga of the late Mr. Justus Wafula, retired clerk and chairman of the Malava Farmers' Cooperative, commenced on the evening of 15 June 2003 at the Wafula family homestead. Among the mourning arrangements made by the family was the engagement of Mama Peninah Atsango, a professional mourner of considerable regional standing who had performed at an estimated ninety-three matangas across Kakamega, Vihiga, and Bungoma counties over the preceding fourteen years.",
+      "Mama Atsango arrived at 7:00 PM on the second evening in a black buibui and commenced her mourning at 7:15. Witnesses describe her opening performance as technically accomplished — the correct register, appropriate escalation, good use of the deceased's name and achievements. At 9:30 PM, having built to a particular passage referencing Mr. Wafula's service to the cooperative, Mama Atsango collapsed. She was revived with cold water and a fan fashioned from a Bidco cooking oil carton. She resumed mourning at 9:47 PM.",
+      "At 11:15 PM Mama Atsango collapsed a second time. She was again revived. A family member suggested she rest. Mama Atsango refused, stating that Mr. Wafula deserved the full service and that she had never left a matanga before midnight in thirty years of practice. She continued until 1:30 AM, at which point most blood relatives had retired. At 6:00 AM the following morning, the family's cook, arriving to begin uji preparations, found Mama Atsango asleep under the food preparation table, wrapped in a lesso. Her shoes were neatly placed beside her.",
+      "Mama Atsango, when awakened, accepted a cup of tea, remarked that Mr. Wafula had been 'a man worth mourning properly,' and departed at 7:15 AM. The family paid her agreed fee plus an undisclosed additional amount described by the eldest son as 'for the commitment.' She has since been engaged by the Wafula family for the matangas of Mr. Wafula's younger brother in 2011 and his sister in 2019. The incident is closed."
+    ],
+    "heritageTrustNote": "Mama Atsango gave oral history testimony to the Heritage Trust in 2024, at the age of 74. She confirmed all material facts and added that the second collapse had been genuine rather than performative, which she described as a professional first. She expressed no regrets. She remains available for engagements.",
+    "pullQuote": {
+      "quote": "She was under the table. Asleep. We had gone home to sleep in our beds and she was still there. In our compound. Mourning our father harder than us.",
+      "attribution": "Mr. Wycliffe Wafula, 52, Eldest son of the deceased"
+    },
+    "relatedIncidents": [],
+    "oralHistoryRefs": ["OHT-2003-021", "OHT-2024-049"]
+  }

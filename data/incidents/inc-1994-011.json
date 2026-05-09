@@ -1,40 +1,28 @@
 {
-  "ref": "INC-1994-011",
-  "name": "The Microphone Incident",
-  "status": "DISPUTED",
-  "date": "12 November 1994",
-  "dateShort": "12 Nov 1994",
-  "year": 1994,
-  "venue": "Mwisho wa Mwisho Primary School Prize-Giving",
-  "categories": ["school event"],
-  "description": "The headmaster's microphone failed mid-announcement. Three students — Achieng, Kamau, and Otieno — each believed they had heard their own name. Two of the three students no longer speak to each other.",
+  "ref": "INC-2019-047",
+  "name": "The Kachumbari Standoff",
+  "status": "OPEN",
+  "date": "7 September 2019",
+  "dateShort": "7 Sep 2019",
+  "year": 2019,
+  "venue": "Njuguna's Place, Thika Road, Nairobi",
+  "categories": ["nyama choma gathering"],
+  "description": "At a farewell nyama choma for Mr. Silas Onyango, departing for Canada, two attendees simultaneously claimed responsibility for the kachumbari. Each disputed the other's claim. A third attendee then stated she had also made kachumbari, producing a separate bowl from her bag. The original kachumbari's provenance has not been established. All three individuals are now in Canada.",
   "featured": false,
-  "firstDocumented": "1995",
+  "firstDocumented": "2019",
   "lastUpdated": "2024",
-  "tags": ["microphone", "prize-giving", "school event", "1994", "Form 4", "Achieng", "Kamau", "Otieno"],
+  "tags": ["nyama choma", "kachumbari", "Thika Road", "disputed ownership", "Canada", "farewell"],
   "prose": [
-    "The Mwisho wa Mwisho Primary School Annual Prize-Giving was held on the afternoon of 12 November 1994 in the school assembly ground. Approximately 200 students, 80 parents and guardians, and the full teaching staff were in attendance. The District Education Officer was present in an observational capacity. The annual award for the top-performing Form 4 student had been reserved for the final announcement of the afternoon, as was the established custom of the occasion.",
-    "At approximately 3:50 in the afternoon, Headmaster Mr. Eliud Mutiso approached the microphone to announce the recipient of the top-performing Form 4 award. The microphone — a dynamic model hired for the occasion — produced intelligible sound for the first syllable or syllables of the announced name before failing. The failure lasted approximately three seconds, during which the headmaster continued speaking. The microphone then resumed partial function for approximately two further seconds before failing again. The name, as announced, was not heard completely by any section of the assembled audience.",
-    "In the moments following the partial announcement, three students rose from their seats in the Form 4 section of the assembly ground. A student identified in the Trust's record only as Achieng rose first. A student identified only as Kamau rose a moment after. A student identified only as Otieno rose briefly and sat down again before the others. Each of the three students has stated, in separate accounts given to the Heritage Trust, that they believed they had heard their own name called. Each sat down upon observing that others had also risen. The award certificate was not presented that afternoon. The Prize-Giving concluded without the award being made.",
-    "No re-announcement was made on the day of the event or at any subsequent occasion. The headmaster, Mr. Eliud Mutiso, retired from his position in 2003. He has not been contacted by the Heritage Trust regarding this incident. The award certificate, if one was prepared in advance, has not been located. A third student — identified only as Otieno in the Trust's record — declined to be interviewed when approached by the Trust in 2007. Two of the three students no longer speak to each other. The incident is designated DISPUTED because the identity of the intended recipient of the award cannot be established from the available evidence, and no authoritative source has provided it."
+    "The farewell nyama choma gathering for Mr. Silas Onyango was held on 7 September 2019 at Njuguna's Place, Thika Road, Nairobi, fourteen days before Mr. Onyango's departure to Winnipeg, Canada, where he had secured a position in logistics. Twenty-two attendees were present. The meat was excellent. The incident occurred during the serving of accompaniments.",
+    "A bowl of kachumbari — finely diced tomato, onion, and coriander, dressed with lemon and chilli — was placed on the central table by an unspecified hand at approximately 4:30 PM. At 4:32 PM, Miss Tabitha Wambua stated to the table that she had made the kachumbari. At 4:33 PM, Mr. Geoffrey Odhiambo stated, with comparable confidence, that he had made the kachumbari. Both looked at the bowl. Both looked at each other.",
+    "A discussion followed lasting eleven minutes, during which Miss Wambua cited her use of the specific green chilli variety available at Ngong Road market and Mr. Odhiambo cited his distinctive lemon-to-onion ratio, which he described as his signature. Neither account could be verified from the bowl's contents alone, as the kachumbari had by this point been substantially consumed by attendees who had not been following the conversation.",
+    "At 4:44 PM, Mrs. Consolata Auma, seated at the far end of the table, reached into her tote bag and produced a second, larger bowl of kachumbari, which she placed beside the first. She stated that she had also made kachumbari and had been waiting for a gap in the conversation to bring it out. The conversation stopped. All three individuals emigrated to Canada within the following eighteen months. The provenance of the original bowl has not been established. The incident is OPEN."
   ],
-  "heritageTrustNote": "The Heritage Trust notes that the announced name has not been recovered from any documentary source held by the Trust. No recording of the Prize-Giving was made. The headmaster has not been contacted. The identity of the intended recipient of the top-performing Form 4 award for 1994 remains unknown to this institution.",
-  "relatedIncidents": ["INC-1987-003"],
-  "oralHistoryRefs": [],
-  "disputedAccount": {
-    "incidentRef": "INC-1994-011",
-    "conflictType": "Unverifiable Claim",
-    "summary": "Three students independently assert that they heard their own name announced as the top-performing Form 4 student.",
-    "accountA": {
-      "witness": "E. Achieng (name withheld by request)",
-      "role": "Student, Form 4, 1994",
-      "text": "I heard my name clearly. I stood up. I sat down again only because no one else reacted. I have never been certain since."
-    },
-    "accountB": {
-      "witness": "F. Kamau (name withheld by request)",
-      "role": "Student, Form 4, 1994",
-      "text": "The name that was announced began with a K sound and ended as mine ends. I do not think I was mistaken. I think the microphone returned briefly."
-    },
-    "heritageTrustNote": "A third student — identified only as Otieno in the record — has declined to be interviewed. The award certificate was never presented. The headmaster has since retired and has not been contacted."
-  }
+  "heritageTrustNote": "The Heritage Trust attempted to contact all three claimants via email in 2023. Miss Wambua responded to say she stood by her account. Mr. Odhiambo responded to say he also stood by his account and that he had since refined his lemon-to-onion ratio further. Mrs. Auma did not respond. The second bowl, by all accounts, was very good.",
+  "pullQuote": {
+    "quote": "She pulled it out of her bag. A full bowl. She had been sitting there with kachumbari in her bag the whole time, waiting.",
+    "attribution": "Mr. Silas Onyango, 36, Guest of Honour, now of Winnipeg"
+  },
+  "relatedIncidents": [],
+  "oralHistoryRefs": ["OHT-2019-049", "OHT-2023-044"]
 }

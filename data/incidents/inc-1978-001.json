@@ -1,40 +1,28 @@
 {
-  "ref": "INC-1978-001",
-  "name": "The Handshake Incident",
-  "status": "CLOSED",
-  "date": "Est. 1978",
-  "dateShort": "Est. 1978",
-  "year": 1978,
-  "venue": "Mwisho wa Mwisho Community Hall",
-  "categories": ["community meeting", "ceremony"],
-  "description": "The guest of honour extended his hand at the ribbon-cutting ceremony. Chief Omondi turned away at the precise moment of the photograph. The image has hung in the hall since 1978 without annotation.",
-  "featured": false,
-  "firstDocumented": "1992",
-  "lastUpdated": "2024",
-  "tags": ["Chief Omondi", "handshake", "photograph", "ribbon-cutting", "1978", "community hall"],
+  "ref": "INC-2011-034",
+  "name": "The Relatives From Nowhere",
+  "status": "OPEN",
+  "date": "23 September 2011",
+  "dateShort": "23 Sep 2011",
+  "year": 2011,
+  "venue": "Barasa Family Homestead, Musikoma, Vihiga",
+  "categories": ["matanga"],
+  "description": "At the matanga of the late Mama Barasa, thirty-one individuals arrived on the third day identifying themselves as relatives from the deceased's paternal side. None had been mentioned in any prior family discussion. They consumed provisions for two days, led three prayer sessions, took prominent positions in the burial photographs, and departed immediately after the post-burial meal. Seventeen have not been seen since. The remaining fourteen reappeared at the family land meeting four months later.",
+  "featured": true,
+  "firstDocumented": "2011",
+  "lastUpdated": "2025",
+  "tags": ["matanga", "Musikoma", "Vihiga", "uninvited relatives", "land", "burial", "Western Kenya", "open"],
   "prose": [
-    "The ribbon-cutting ceremony at the Mwisho wa Mwisho Community Hall, held on a date in 1978 for which no precise record survives in the Trust's holdings, was attended by an estimated sixty to eighty community members, in addition to the District Officer and several dignitaries from the provincial administration. The guest of honour, whose identity has not been confirmed in any document currently held by the Trust, extended his hand toward Chief Omondi at the moment of the official ceremony photograph. Chief Omondi had been standing to the guest's left throughout the proceedings.",
-    "At the moment the photographer depressed the shutter, Chief Omondi turned. The direction of his turn has been described variously by witnesses as turning toward the assembled crowd, turning in the direction of the street, and turning in response to a voice or sound from his right. The photograph, as developed, records Chief Omondi's back and left shoulder. The guest of honour's extended hand is visible at the right edge of the frame. The handshake, if it was intended, did not occur. The photograph does not record whether it was intended.",
-    "The photograph was framed and placed in the Community Hall at some point following the ceremony. It has remained on the eastern wall of the main meeting room since that time. No annotation accompanies it. No nameplate identifies either the guest of honour or Chief Omondi by name. The photograph was confirmed as present and in place by the Trust's first archivist during a preliminary survey in 1992. It has not been subject to formal cataloguing since that date and is recorded in the Trust's holdings as DOC-1978-001.",
-    "Chief Omondi died in 2003. No statement was collected from him by the Heritage Trust prior to his death. This constitutes a gap in the record which cannot now be remedied. The guest of honour has not been identified from any documentary source held by the Trust. No oral history has been formally commissioned from surviving attendees who might identify him. The incident is closed in the sense that no further testimony is anticipated. It is not resolved in any other sense."
+    "The matanga of the late Mama Edith Barasa, who had passed on 20 September 2011 at the age of 78, was being conducted with appropriate solemnity at the Barasa family homestead in Musikoma, Vihiga, when, on the morning of the third day, a procession of thirty-one persons entered the compound on foot from the direction of the main road. They were dressed in mourning colours. They were wailing with conviction. They knew Mama Barasa's name, her clan name, and two facts about her childhood that the immediate family confirmed were accurate.",
+    "The delegation's leader, an elderly man who introduced himself as Mzee Saul Barasa and claimed to be the late Mr. Barasa Senior's cousin's son, addressed the family at length on the deceased's virtues, the importance of unity in grief, and the deep roots of the Barasa lineage. He spoke for forty minutes. He was given a seat at the front. The thirty-one persons integrated themselves into the matanga with a fluency that several eyewitnesses described as 'practised.'",
+    "Over the following two days, the new arrivals ate four meals per day, led morning and evening prayers with considerable authority, commandeered the best position under the main tent, and inserted themselves into every family photograph with the confidence of people who expected to be in family photographs. The immediate family, occupied with grief and logistics, did not find the moment to formally interrogate anyone's credentials.",
+    "At the conclusion of the post-burial meal on the fifth day, all thirty-one departed within a single hour. Seventeen have not been seen or heard from since. The remaining fourteen reappeared at the Barasa family land meeting convened in January 2012, where they produced documents and advanced claims regarding a portion of the ancestral land. The matter was referred to a local elder's council. As of the most recent update to this record, the land question has not been fully resolved. The incident is OPEN."
   ],
-  "heritageTrustNote": "Chief Omondi died in 2003. No statement was collected from him by the Heritage Trust prior to his death. This constitutes a gap in the record which cannot now be remedied. The Trust acknowledges that the most material witness to this incident is no longer available to it.",
+  "heritageTrustNote": "The Heritage Trust notes the precise correlation between the fourteen returning individuals and the land under dispute. This correlation has not been lost on the Barasa family. Mzee Saul Barasa, when contacted by the Heritage Trust in 2024, stated that he was a genuine relative and that the timing of the land meeting was coincidental. He cited the two childhood facts as evidence. The Heritage Trust has preserved his statement and the family's response to it, which was extensive.",
+  "pullQuote": {
+    "quote": "They knew how to wail. They knew the clan songs. They knew where the toilet was by the second day. These were not strangers to this compound. But nobody knew them.",
+    "attribution": "Mrs. Anastasia Barasa-Simiyu, 58, Daughter of the deceased"
+  },
   "relatedIncidents": [],
-  "oralHistoryRefs": [],
-  "disputedAccount": {
-    "incidentRef": "INC-1978-001",
-    "conflictType": "Testimony Conflict",
-    "summary": "Witnesses disagree on whether Chief Omondi was aware that the photograph was being taken at the moment he turned.",
-    "accountA": {
-      "witness": "A. Wekesa, 83",
-      "role": "Attendee at the inauguration, 1978",
-      "text": "He knew the photograph was coming. We had been told to stand still. He chose that moment to turn. I do not know why. No one asked him at the time."
-    },
-    "accountB": {
-      "witness": "B. Odhiambo, 78",
-      "role": "Attendee at the inauguration, 1978",
-      "text": "It was entirely accidental. Someone called his name from the side. He was a courteous man. He turned because he was called. That is all."
-    },
-    "heritageTrustNote": "Chief Omondi died in 2003. No statement was collected from him by the Heritage Trust prior to his death. This constitutes a gap in the record which cannot now be remedied."
-  }
+  "oralHistoryRefs": ["OHT-2011-036", "OHT-2024-053", "OHT-2012-008"]
 }
